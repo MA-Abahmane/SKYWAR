@@ -11,10 +11,10 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 .MAA
 
 
-(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/startGame.png]
+[!img](https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/startGame.png)
 
-(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame1.png]
+[!img](https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame1.png)
 
-(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame2.png]
+[!img](https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame2.png)
 
-(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/endGame.png]
+[!img](https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/endGame.png)
