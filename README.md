@@ -8,13 +8,13 @@ Now, the clarion call to defend our world resonates. You, the chosen warrior, em
 
 Soldier, let your courage shine bright. This is your moment to etch a legacy of resilience. As you embark on this noble journey, may fortune favor the brave, and may victory forever be your companion.
 
-
 .MAA
 
-(!img)[]
 
-(!img)[]
+(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/startGame.png]
 
-(!img)[]
+(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame1.png]
 
-(!img)[]
+(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/inGame2.png]
+
+(!img)[https://github.com/MA-Abahmane/SKYWAR/blob/main/Images/endGame.png]
