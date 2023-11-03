@@ -8,6 +8,7 @@ Now, the clarion call to defend our world resonates. You, the chosen warrior, em
 
 Soldier, let your courage shine bright. This is your moment to etch a legacy of resilience. As you embark on this noble journey, may fortune favor the brave, and may victory forever be your companion.
 
+<br/>
 
 **Unlock the thrilling possibilities with the latest, cutting-edge editions of the game:**
 <br/>
