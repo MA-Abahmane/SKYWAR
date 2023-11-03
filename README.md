@@ -16,8 +16,6 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 <br/>
 [SKYWAR-V3](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3)
 
-<br/>
-
 *.MAA*
 ---
 
