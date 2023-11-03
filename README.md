@@ -1,4 +1,4 @@
-# SKYWAR
+# SKYWAR-V2
 
 ## An engaging survival shooting game that I'm confident you'll thoroughly enjoy.
 
