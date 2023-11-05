@@ -13,10 +13,10 @@ WIDTH, HEIGHT = 750, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sky War")
 
-# Enemy ship images
-Garuka_ship = pygame.image.load(os.path.join("images", "alien1.png"))
-Tarantula_ship = pygame.image.load(os.path.join("images", "alien2.png"))
-Bit_ship = pygame.image.load(os.path.join("images", "alien3.png"))
+# Enemy ship assets
+Garuka_ship = pygame.image.load(os.path.join("assets", "alien1.png"))
+Tarantula_ship = pygame.image.load(os.path.join("assets", "alien2.png"))
+Bit_ship = pygame.image.load(os.path.join("assets", "alien3.png"))
 
 # Random Player Ship
 Ghost = "Warcraft1.png"
@@ -24,36 +24,36 @@ blueBird = "Warcraft2.png"
 FF_Falcon = "Warcraft3.png"
 
 player = pygame.image.load(
-    os.path.join("images", (random.choice([Ghost, blueBird, FF_Falcon]))))
+    os.path.join("assets", (random.choice([Ghost, blueBird, FF_Falcon]))))
 
 # Lasers
-redLaser = pygame.image.load(os.path.join("images", "blasterBlue.png"))
-greenLaser = pygame.image.load(os.path.join("images", "blasterRed.png"))
-blueLaser = pygame.image.load(os.path.join("images", "blasterBit.png"))
+redLaser = pygame.image.load(os.path.join("assets", "blasterBlue.png"))
+greenLaser = pygame.image.load(os.path.join("assets", "blasterRed.png"))
+blueLaser = pygame.image.load(os.path.join("assets", "blasterBit.png"))
 
 # missiles
 m1 = "missile1.png"
 m2 = "missile2.png"
-missile = pygame.image.load(os.path.join("images", (random.choice([m1, m2]))))
+missile = pygame.image.load(os.path.join("assets", (random.choice([m1, m2]))))
 
 # Healt Box
-healthBox = pygame.image.load(os.path.join("images", "health.png"))
+healthBox = pygame.image.load(os.path.join("assets", "health.png"))
 
 # Assault Box
 saultX = "assaultX.png"
 saultZ = "assaultZ.png"
-assault = pygame.image.load(os.path.join("images", "assault.png"))
-newShot = pygame.image.load(os.path.join("images", (random.choice([saultX, saultZ]))))
+assault = pygame.image.load(os.path.join("assets", "assault.png"))
+newShot = pygame.image.load(os.path.join("assets", (random.choice([saultX, saultZ]))))
 
 
 # Logo
-logo = pygame.image.load(os.path.join("images", "logo.png"))
+logo = pygame.image.load(os.path.join("assets", "logo.png"))
 
 # Backgrounds
 BG_I = pygame.transform.scale(
-    pygame.image.load(os.path.join("images", "bg.png")), (WIDTH, HEIGHT))
+    pygame.image.load(os.path.join("assets", "bg.png")), (WIDTH, HEIGHT))
 BG_II = pygame.transform.scale(
-    pygame.image.load(os.path.join("images", "bg2.png")), (WIDTH, HEIGHT))
+    pygame.image.load(os.path.join("assets", "bg2.png")), (WIDTH, HEIGHT))
 
 # pages
 page_I   = "page_I.png"
@@ -488,7 +488,7 @@ def main_menu():
                 # play music
                 mixer.music.play(-1)
 
-                page = pygame.image.load(os.path.join("images", (random.choice([page_I, page_II, page_III]))))
+                page = pygame.image.load(os.path.join("assets", (random.choice([page_I, page_II, page_III]))))
                 flag = True
                 # Start the game
                 main()
