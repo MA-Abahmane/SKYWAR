@@ -31,7 +31,7 @@ BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "bg.png")),
 
 
 
-
+# laser class
 class Laser:
     def __init__(self, x, y, img):
         self.x = x
@@ -39,19 +39,20 @@ class Laser:
         self.img = img
         self.mask = pygame.mask.from_surface(self.img)
 
+    # draw laser
     def draw(self, window):
         window.blit(self.img, (self.x, self.y))
-
+    # move laser
     def move(self, vel):
         self.y += vel
-
+    # if laser is out of bounds
     def off_screen(self, height):
         return not(self.y <= height and self.y >= 0)
-
+    # collision check
     def collision(self, obj):
         return collide(self, obj)
 
-
+# ships class
 class Ship:
     COOLDOWN = 30
 
@@ -78,7 +79,7 @@ class Ship:
             elif laser.collision(obj):
                 obj.health -= 10
                 self.lasers.remove(laser)
-
+    # Laser cooldown
     def cooldown(self):
         if self.cool_down_counter >= self.COOLDOWN:
             self.cool_down_counter = 0
@@ -97,7 +98,7 @@ class Ship:
     def get_height(self):
         return self.ship_img.get_height()
 
-
+# player class
 class Player(Ship):
     def __init__(self, x, y, health=100):
         super().__init__(x, y, health)
@@ -127,7 +128,7 @@ class Player(Ship):
         pygame.draw.rect(window, (255,0,0), (self.x, self.y + self.ship_img.get_height() + 10, self.ship_img.get_width(), 10))
         pygame.draw.rect(window, (0,255,0), (self.x, self.y + self.ship_img.get_height() + 10, self.ship_img.get_width() * (self.health/self.max_health), 10))
 
-
+# enemy class
 class Enemy(Ship):
     COLOR_MAP = {
                 "red": (RED_SPACE_SHIP, RED_LASER),
@@ -149,7 +150,7 @@ class Enemy(Ship):
             self.lasers.append(laser)
             self.cool_down_counter = 1
 
-
+# collision checker
 def collide(obj1, obj2):
     offset_x = obj2.x - obj1.x
     offset_y = obj2.y - obj1.y
@@ -179,6 +180,7 @@ def main():
     lost = False
     lost_count = 0
 
+    # Draw elements
     def redraw_window():
         WIN.blit(BG, (0,0))
         # draw text
@@ -200,7 +202,10 @@ def main():
         pygame.display.update()
 
     while run:
+        # main game loop
+
         clock.tick(FPS)
+
         redraw_window()
 
         if lives <= 0 or player.health <= 0:
@@ -256,7 +261,7 @@ def main():
 
         player.move_lasers(-laser_vel, enemies)
 
-# Starting page
+# main page
 def main_menu():
     title_font = pygame.font.SysFont("verdana", 50)
     run = True
@@ -277,5 +282,5 @@ def main_menu():
 
     pygame.quit()
 
-
+# RUN GAME
 main_menu()
