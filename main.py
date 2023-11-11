@@ -60,8 +60,6 @@ page_I   = "page_I.png"
 page_II  = "page_II.png"
 page_III = "page_III.png"
 
-# music
-
 
 
 
@@ -341,7 +339,7 @@ def main():
         pygame.display.update()
 
     while run:
-        # check 60/s for movesa
+        # check 60f/s
         clock.tick(FPS)
 
         redrawWin()
@@ -358,7 +356,7 @@ def main():
                 continue
 
 
-        # if no enemys in map
+        # if no enemies in map
         if len(enemies) == 0:
             level += 1
             wave_length += 3
@@ -395,12 +393,12 @@ def main():
         ) < WIDTH:
             player.x += player_mov
 
-    # shoot
+        # shoot
         if keys[pygame.K_SPACE]:
             player.shoot()
 
 
-    # Enemy movement
+        # Enemy movement
         for enemy in enemies[:]:  # copy enemy list
             enemy.move(enemy_vel)
             enemy.move_missile(laser_vel, player)
@@ -457,10 +455,10 @@ def main_menu():
 
     while run:
 
-        # posters
+        # after game posters
         if flag:
             WIN.blit(page, (0, 0))
-        
+
         pygame.display.update()
         # start or quit game
         for event in pygame.event.get():
@@ -475,7 +473,7 @@ def main_menu():
                     mixer.music.set_volume(0.1)
                     # play music
                     mixer.music.play(-1)
-    
+
                 ## Update playing music
                 Rmusic = (random.choice(["music.mp3", "music2.mp3", "music3.mp3", "music4.mp3","music5.mp3", "music6.mp3", "music7.mp3", "music8.mp3", "music9.mp3"]))
                 # fadeout main menu music
@@ -494,7 +492,7 @@ def main_menu():
                 main()
     pygame.quit()
 
-
+# Start game
 main_menu()
 
 
