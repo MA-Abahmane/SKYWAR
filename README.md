@@ -10,20 +10,17 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 <br/>
 
-**Unlock the thrilling possibilities with the latest, cutting-edge editions of the game:**
-<br/>
-[SKYWAR-V3](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3)
 
 *.MAA*
 ---
 
-![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/main-V2.png)
+![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/main-V3.png)
 
-![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/inGameI-V2.png)
+![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/mission-V3.png)
 
-![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/inGameII-V2.png)
+![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/inGame-V3.png)
 
-![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/slides-V2.png)
+![img](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3/images/slides-V3.png)
 
 
 
