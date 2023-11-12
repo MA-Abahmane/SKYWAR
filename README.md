@@ -10,6 +10,7 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 <br/>
 
+# what is NEW:
 - **Improved User Experience:** Enhancements have been made to the user interface and overall experience to make the game more user-friendly and enjoyable for players.
 
 - **Enhanced Graphics:** The game now boasts improved visual quality, possibly with better textures, lighting, and special effects, providing a more visually appealing experience.
