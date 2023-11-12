@@ -11,23 +11,23 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 <br/>
 
 ## What is NEW:
-- Optimized Code: This means that the underlying programming code of the game or software has been improved for better performance and efficiency. This can result in smoother gameplay and faster load times.
+- **Optimized Code:** This means that the underlying programming code of the game or software has been improved for better performance and efficiency. This can result in smoother gameplay and faster load times.
 
-- Better UX (User Experience): The user interface and overall experience of using the game or software have been enhanced to make it more user-friendly and enjoyable for players or users.
+- **Better UX (User Experience):** The user interface and overall experience of using the game or software have been enhanced to make it more user-friendly and enjoyable for players or users.
 
-- Elegance: This suggests that the design and presentation of the game or software have been refined to be more visually appealing and aesthetically pleasing.
+- **Elegance:** This suggests that the design and presentation of the game or software have been refined to be more visually appealing and aesthetically pleasing.
 
-- Game Music: Background music has been added to the game to enhance the player's immersive experience and add to the atmosphere of the game.
+- **Game Music:** Background music has been added to the game to enhance the player's immersive experience and add to the atmosphere of the game.
 
-- Animated Background: The game now features animated backgrounds, which can make the game world feel more dynamic and engaging.
+- **Animated Background:** The game now features animated backgrounds, which can make the game world feel more dynamic and engaging.
 
-- Challenging Enemy: A new, more formidable enemy has been introduced to the game to increase the level of challenge and excitement for players.
+- **Challenging Enemy:** A new, more formidable enemy has been introduced to the game to increase the level of challenge and excitement for players.
 
-- In-Game Sounds: Various in-game sounds have been added to provide auditory feedback and enhance the overall gaming experience. Players can press "P" to access these sounds.
+- **In-Game Sounds:** Various in-game sounds have been added to provide auditory feedback and enhance the overall gaming experience. Players can press "P" to access these sounds.
 
-- More Control: Players now have more control over the game, which can include additional features or options for customization.
+- **More Control:** Players now have more control over the game, which can include additional features or options for customization.
 
-- More Secrets to Discover: The game or software now includes hidden elements, Easter eggs, or secrets that players can uncover or explore, adding an element of mystery and discovery to the experience.
+- **More Secrets to Discover:** The game or software now includes hidden elements, Easter eggs, or secrets that players can uncover or explore, adding an element of mystery and discovery to the experience.
 
 <br/>
 
