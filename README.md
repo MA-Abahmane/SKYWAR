@@ -10,11 +10,29 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 <br/>
 
+- **Improved User Experience:** Enhancements have been made to the user interface and overall experience to make the game more user-friendly and enjoyable for players.
+
+- **Enhanced Graphics:** The game now boasts improved visual quality, possibly with better textures, lighting, and special effects, providing a more visually appealing experience.
+
+- **New Spacecraft:** Additional spacecraft options have been introduced, offering players more variety and customization in their gameplay.
+
+- **Health and Assault Drops:** The game now includes items or power-ups that players can collect to restore health or gain advantages in battles.
+
+- **Challenging Waves:** The game features more challenging and dynamic enemy waves, making the gameplay more intense and exciting.
+
+- **Optimized Code:** The underlying programming code has been refined for better performance, resulting in smoother gameplay and faster load times.
+
+- **Better Game Performance:** The game now runs more efficiently, resulting in improved performance and higher frame rates.
+
+<br/>
+
 **Unlock the thrilling possibilities with the latest, cutting-edge editions of the game:**
 ---
 [SKYWAR-V3](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3)
 
-*.MAA*
+<br/>
+
+Game clips
 ---
 
 ![img](https://github.com/MA-Abahmane/SKYWAR/blob/SKYWAR-V2/images/main-V2.png)
@@ -25,5 +43,5 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 ![img](https://github.com/MA-Abahmane/SKYWAR/blob/SKYWAR-V2/images/slides-V2.png)
 
-
+_*.MAA*_
 
