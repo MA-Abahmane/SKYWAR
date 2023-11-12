@@ -28,12 +28,12 @@ blueLaser = pygame.image.load(os.path.join("SKYWAR", "assets", "blasterBlue.png"
 redLaser = pygame.image.load(os.path.join("SKYWAR", "assets", "blasterRed.png"))
 bitLaser = pygame.image.load(os.path.join("SKYWAR", "assets", "blasterBit.png"))
 
-# missiles
+# Missiles
 m1 = "missile1.png"
 m2 = "missile2.png"
 missile = pygame.image.load(os.path.join("SKYWAR", "assets", (random.choice([m1, m2]))))
 
-# Healt Box
+# Health Box
 healthBox = pygame.image.load(os.path.join("SKYWAR", "assets", "health.png"))
 
 # Assault Box
@@ -57,7 +57,7 @@ GPage = pygame.image.load(os.path.join("SKYWAR", "assets", "GPage.png"))
 # Game mission page [2st page displayed]
 mission = pygame.image.load(os.path.join("SKYWAR", "assets", "mission.png"))
 
-# pages
+# Pages
 page_I   = "page_I.png"
 page_II  = "page_II.png"
 page_III = "page_III.png"
