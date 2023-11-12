@@ -14,9 +14,9 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("SKYWAR")
 
 # Enemy ship assets
-Garuka_ship = pygame.image.load(os.path.join("assets", "alien1.png"))
-Tarantula_ship = pygame.image.load(os.path.join("assets", "alien2.png"))
-Bit_ship = pygame.image.load(os.path.join("assets", "alien3.png"))
+Garuka_ship = pygame.image.load(os.path.join("SKYWAR" , "assets", "alien1.png"))
+Tarantula_ship = pygame.image.load(os.path.join("SKYWAR" , "assets", "alien2.png"))
+Bit_ship = pygame.image.load(os.path.join("SKYWAR" , "assets", "alien3.png"))
 
 # Random Player Ship
 Ghost = "Warcraft1.png"
@@ -24,36 +24,36 @@ blueBird = "Warcraft2.png"
 FF_Falcon = "Warcraft3.png"
 
 player = pygame.image.load(
-    os.path.join("assets", (random.choice([Ghost, blueBird, FF_Falcon]))))
+    os.path.join("SKYWAR" , "assets", (random.choice([Ghost, blueBird, FF_Falcon]))))
 
 # Lasers
-redLaser = pygame.image.load(os.path.join("assets", "blasterBlue.png"))
-greenLaser = pygame.image.load(os.path.join("assets", "blasterRed.png"))
-blueLaser = pygame.image.load(os.path.join("assets", "blasterBit.png"))
+redLaser = pygame.image.load(os.path.join("SKYWAR" , "assets", "blasterBlue.png"))
+greenLaser = pygame.image.load(os.path.join("SKYWAR" , "assets", "blasterRed.png"))
+blueLaser = pygame.image.load(os.path.join("SKYWAR" , "assets", "blasterBit.png"))
 
 # missiles
 m1 = "missile1.png"
 m2 = "missile2.png"
-missile = pygame.image.load(os.path.join("assets", (random.choice([m1, m2]))))
+missile = pygame.image.load(os.path.join("SKYWAR" , "assets", (random.choice([m1, m2]))))
 
 # Healt Box
-healthBox = pygame.image.load(os.path.join("assets", "health.png"))
+healthBox = pygame.image.load(os.path.join("SKYWAR" , "assets", "health.png"))
 
 # Assault Box
 saultX = "assaultX.png"
 saultZ = "assaultZ.png"
-assault = pygame.image.load(os.path.join("assets", "assault.png"))
-newShot = pygame.image.load(os.path.join("assets", (random.choice([saultX, saultZ]))))
+assault = pygame.image.load(os.path.join("SKYWAR" , "assets", "assault.png"))
+newShot = pygame.image.load(os.path.join("SKYWAR" , "assets", (random.choice([saultX, saultZ]))))
 
 
 # Logo
-logo = pygame.image.load(os.path.join("assets", "logo.png"))
+logo = pygame.image.load(os.path.join("SKYWAR" , "assets", "logo.png"))
 
 # Backgrounds
 BG_I = pygame.transform.scale(
-    pygame.image.load(os.path.join("assets", "bg.png")), (WIDTH, HEIGHT))
+    pygame.image.load(os.path.join("SKYWAR" , "assets", "bg.png")), (WIDTH, HEIGHT))
 BG_II = pygame.transform.scale(
-    pygame.image.load(os.path.join("assets", "bg2.png")), (WIDTH, HEIGHT))
+    pygame.image.load(os.path.join("SKYWAR" , "assets", "bg2.png")), (WIDTH, HEIGHT))
 
 # pages
 page_I   = "page_I.png"
@@ -468,25 +468,25 @@ def main_menu():
             if keys[pygame.K_SPACE]:
                 if (not flag):
                     # Loading Music File
-                    mixer.music.load((os.path.join("music", "music.wav")))
+                    mixer.music.load((os.path.join("SKYWAR", "music", "music.wav")))
                     # volume set
                     mixer.music.set_volume(0.1)
                     # play music
                     mixer.music.play(-1)
 
                 ## Update playing music
-                Rmusic = (random.choice(["music.mp3", "music2.mp3", "music3.mp3", "music4.mp3","music5.mp3", "music6.mp3", "music7.mp3", "music8.mp3", "music9.mp3"]))
+                Rmusic = (random.choice(["music.wav", "music2.mp3", "music3.mp3", "music4.mp3", "music5.mp3", "music6.mp3", "music7.mp3", "music8.mp3", "music9.mp3"]))
                 # fadeout main menu music
                 mixer.music.fadeout(500)
 
                 # get random music
-                mixer.music.load((os.path.join("music", Rmusic)))
+                mixer.music.load((os.path.join("SKYWAR", "music", Rmusic)))
                 # volume set
                 mixer.music.set_volume(0.1)
                 # play music
                 mixer.music.play(-1)
 
-                page = pygame.image.load(os.path.join("assets", (random.choice([page_I, page_II, page_III]))))
+                page = pygame.image.load(os.path.join("SKYWAR" , "assets", (random.choice([page_I, page_II, page_III]))))
                 flag = True
                 # Start the game
                 main()
@@ -494,9 +494,6 @@ def main_menu():
 
 # Start game
 main_menu()
-
-
-
 
 
 
