@@ -9,25 +9,25 @@ pygame.font.init()
 # Create game window
 WIDTH, HEIGHT = 750, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Shooter Tutorial")
+pygame.display.set_caption("SKYWAR")
 
 ## Load images
 # enemy crafts
-RED_SPACE_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_red_small.png"))
-GREEN_SPACE_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_green_small.png"))
-BLUE_SPACE_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_blue_small.png"))
+RED_SPACE_SHIP = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_ship_red_small.png"))
+GREEN_SPACE_SHIP = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_ship_green_small.png"))
+BLUE_SPACE_SHIP = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_ship_blue_small.png"))
 
 # Player craft
-YELLOW_SPACE_SHIP = pygame.image.load(os.path.join("assets", "pixel_ship_yellow.png"))
+YELLOW_SPACE_SHIP = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_ship_yellow.png"))
 
 # Lasers
-RED_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_red.png"))
-GREEN_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_green.png"))
-BLUE_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_blue.png"))
-YELLOW_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_yellow.png"))
+RED_LASER = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_laser_red.png"))
+GREEN_LASER = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_laser_green.png"))
+BLUE_LASER = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_laser_blue.png"))
+YELLOW_LASER = pygame.image.load(os.path.join("SKYWAR" , "assets", "pixel_laser_yellow.png"))
 
 # Background
-BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "bg.png")), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load(os.path.join("SKYWAR" , "assets", "bg.png")), (WIDTH, HEIGHT))
 
 
 
@@ -282,5 +282,8 @@ def main_menu():
 
     pygame.quit()
 
+
 # RUN GAME
 main_menu()
+
+
