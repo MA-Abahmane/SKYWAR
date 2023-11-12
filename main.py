@@ -304,7 +304,7 @@ def main():
 
     # drops set
     playerHealth_set = 50
-    assault_lvl = 1
+    assault_lvl = 5
     drop_speed = 0.7
 
 
