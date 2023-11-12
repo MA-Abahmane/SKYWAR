@@ -31,7 +31,7 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 <br/>
 
-*.MAA*
+## Game clips
 ---
 
 ![img](https://github.com/MA-Abahmane/SKYWAR/blob/SKYWAR-V3/images/main_V3.png)
@@ -42,5 +42,5 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 ![img](https://github.com/MA-Abahmane/SKYWAR/blob/SKYWAR-V3/images/slides_V3.png)
 
-
-
+<br/>
+*.MAA*
