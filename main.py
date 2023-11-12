@@ -11,7 +11,7 @@ mixer.init()
 # Window
 WIDTH, HEIGHT = 750, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Sky War")
+pygame.display.set_caption("SKYWAR")
 
 # Enemy ship assets
 Garuka_ship = pygame.image.load(os.path.join("assets", "alien1.png"))
