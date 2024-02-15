@@ -13,6 +13,7 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 **Simple game requirements**
 ---
 [Python](https://www.python.org/downloads/)
+<br/>
 [Pygame](https://pypi.org/project/pygame/)
 
 
