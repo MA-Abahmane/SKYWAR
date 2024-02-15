@@ -1,4 +1,4 @@
-# SKYWAR
+<h1 style="color:Royalblue;"> SKYWAR </h1> 
 
 ## An engaging survival shooting game that I'm confident you'll thoroughly enjoy.
 
