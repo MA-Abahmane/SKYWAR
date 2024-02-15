@@ -10,8 +10,9 @@ Soldier, let your courage shine bright. This is your moment to etch a legacy of 
 
 <br/>
 **Simple game requirements**
-[Python](https://www.python.org/downloads/)
-[Pygame](https://pypi.org/project/pygame/)
+---
+[Python] (https://www.python.org/downloads/)
+[Pygame] (https://pypi.org/project/pygame/)
 
 
 <br/>
