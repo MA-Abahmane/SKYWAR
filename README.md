@@ -1,4 +1,4 @@
-<h1 style="color:Royalblue"> SKYWAR-V2 </h1>
+<h1 style="color:Royalblue;"> SKYWAR-V2 </h1>
 
 ## An engaging survival shooting game that I'm confident you'll thoroughly enjoy.
 
