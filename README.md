@@ -1,4 +1,4 @@
-<h1 style="color:RoyalBlue !important;">SKYWAR-V3 [Latest V]</h1>
+<h1 style="color:RoyalBlue;">SKYWAR-V3 [Latest V]</h1>
 
 ## An engaging survival shooting game that I'm confident you'll thoroughly enjoy.
 
