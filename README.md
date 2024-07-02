@@ -21,7 +21,7 @@ All you'll need are [Python](https://www.python.org/downloads/) and [Pygame](htt
 ---
 [SKYWAR-V2](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V2)
 <br/>
-[SKYWAR-V3](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3)
+[SKYWAR-V3 *Latest!*](https://github.com/MA-Abahmane/SKYWAR/tree/SKYWAR-V3)
 
 <br/>
 
